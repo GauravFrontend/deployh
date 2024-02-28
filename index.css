@@ -5,6 +5,10 @@
     font-family: "Gilroy";
 
 }
+@font-face {
+    font-family: myFirstFont;
+    src: url(Gilroy-Medium.ttf);
+}
 
 html,
 body {
@@ -15,6 +19,7 @@ body {
     width: 100%;
 
 }
+
 button {
     padding: 10px 20px;
     background-color: black;
@@ -48,8 +53,8 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 17px; 
-    height: 17px; 
+    width: 17px;
+    height: 17px;
     margin-right: 10px;
 }
 
@@ -99,7 +104,7 @@ button {
     text-align: center;
     color: transparent;
     -webkit-text-stroke: 3px white;
-   
+
 }
 
 
@@ -108,15 +113,13 @@ button {
     padding-top: 7px;
     font-size: 14px;
     color: white;
-font-family: "gilroy-medium";
+    font-family: "myFirstFont";
     padding-left: 10px;
     padding-bottom: 10px;
 }
 
-.card-footer p{
-   
-font-family: "gilroy-medium";
-    ;
+.card-footer p {
+    font-family: "myFirstFont";
 }
 
 .card-footer2 {
@@ -126,14 +129,17 @@ font-family: "gilroy-medium";
     padding-right: 50px;
     padding-bottom: 18px;
 }
-#fontsize{
+
+#fontsize {
     font-size: 13px;
 }
-#container{
+
+#container {
 
     color: white;
 }
-#fontslim{
+
+#fontslim {
 
     font-weight: 100;
     width: 100%;
@@ -144,6 +150,7 @@ font-family: "gilroy-medium";
     #containerflex h1 {
         font-size: 57px;
     }
+
     #containerflex h1:last-child {
         font-size: 90px;
         font-family: "gilroy-medium";
@@ -157,6 +164,7 @@ font-family: "gilroy-medium";
     #containerflex h1 {
         font-size: 47px;
     }
+
     #containerflex h1:last-child {
         font-size: 90px;
         font-family: "gilroy-medium";
