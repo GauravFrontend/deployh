@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+
+}
+
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; 
+}
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.card {
+
+    border-radius: 10px;
+    background-color: #2C2C2C;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card-header {
+    display: flex;
+    align-items: start;
+    padding: 10px;
+}
+
+.card-image img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px; 
+    height: 17px; 
+    margin-right: 10px;
+}
+
+.card-content {
+    width: 20vw;
+    flex-grow: 1;
+    color: beige;
+}
+
+.card-content h3 {
+    margin: 0;
+}
+
+.card-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding: 1px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#containerflex{
+    align-items: start;
+    justify-content: start;
+    padding-left: 20px;
+    padding-bottom:10px ;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.card-footer {
+    padding-top: 0;
+    padding-left: 10px;
+    padding-bottom: 4px;
+}
+.card-footer2 {
+    color: rgb(148, 148, 145);
+    padding-top: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#fontsize{
+    font-size: 13px;
+}
+#container{
+
+    color: white;
+}
+#fontslim{
+    font-weight: 100;
+}
