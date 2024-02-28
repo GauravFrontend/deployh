@@ -139,6 +139,7 @@ button {
     }
     #containerflex h1:last-child {
         font-size: 100px;
+        -webkit-text-stroke: 1px white;
     }
 
 }
@@ -149,6 +150,7 @@ button {
     }
     #containerflex h1:last-child {
         font-size: 90px;
+        -webkit-text-stroke: 1px white;
     }
 
 }
