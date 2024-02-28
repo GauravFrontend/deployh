@@ -11,8 +11,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: black; 
+    height: 100%;
+    width: 100%;
+
 }
 button {
     padding: 10px 20px;
@@ -31,12 +32,16 @@ button {
     background-color: #2C2C2C;
     overflow: hidden;
     margin: 20px;
+    margin-right: 75px;
 }
 
 .card-header {
+    margin-top: 3px;
     display: flex;
     align-items: start;
     padding: 10px;
+    color: gray;
+    font-size: 14px;
 }
 
 .card-image img {
@@ -51,7 +56,7 @@ button {
 .card-content {
     width: 20vw;
     flex-grow: 1;
-    color: beige;
+    color: rgb(226, 226, 226);
 }
 
 .card-content h3 {
@@ -59,35 +64,60 @@ button {
 }
 
 .card-button {
-    background-color: #007bff;
-    color: white;
+    background-color: #949494;
+    color: #2C2C2C;
     border: none;
     font-size: 12px;
-    padding: 1px 7px;
+    padding: 4px 7px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-#containerflex{
-    align-items: start;
-    justify-content: start;
-    padding-left: 20px;
-    padding-bottom:10px ;
+#containerflex {
     display: flex;
-    gap: 20px;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
+#containerflex div {
+    display: inline-block;
+}
+
+#containerflex h1 {
+    margin: 0;
+    font-size: 73px;
+}
+
+#containerflex h1:first-child {
+    margin-bottom: 5px;
+}
+
+#containerflex h1:last-child {
+    font-size: 116px;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 3px white;
+   
+}
+
+
+
 .card-footer {
-    padding-top: 0;
+    padding-top: 7px;
+    font-size: 14px;
+    color: white;
+    -webkit-text-stroke: 1px white;
     padding-left: 10px;
-    padding-bottom: 4px;
+    padding-bottom: 10px;
 }
 .card-footer2 {
     color: rgb(148, 148, 145);
     padding-top: 0;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-bottom: 18px;
 }
 #fontsize{
     font-size: 13px;
@@ -97,5 +127,28 @@ button {
     color: white;
 }
 #fontslim{
+
     font-weight: 100;
+    width: 100%;
+}
+
+
+@media (max-width:460px) {
+    #containerflex h1 {
+        font-size: 57px;
+    }
+    #containerflex h1:last-child {
+        font-size: 100px;
+    }
+
+}
+
+@media (max-width:400px) {
+    #containerflex h1 {
+        font-size: 47px;
+    }
+    #containerflex h1:last-child {
+        font-size: 90px;
+    }
+
 }

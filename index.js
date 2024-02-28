@@ -7,7 +7,7 @@ function openPopup() {
     
 
     var popupWidth = 500;
-    var popupHeight = 600;
+    var popupHeight = 800;
 
 
     var leftPosition = (window.screen.width - popupWidth) / 2;
